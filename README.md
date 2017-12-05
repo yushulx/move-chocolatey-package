@@ -21,7 +21,8 @@ Check PowerShell version:
 ```ps
 $PSVersionTable.PSVersion
 ```
-![Check PowerShell version](screenshots\powershell-version.PNG)
+
+![Check PowerShell version](screenshots/powershell-version.PNG)
 
 Set **ExecutionPolicy**:
 
@@ -34,4 +35,5 @@ Run the script:
 ```ps
 .\choco-move.ps1
 ```
-![Move chocolatey packages with PowerShell script](screenshots\powershell-chocolatey-package.PNG)
+
+![Move chocolatey packages with PowerShell script](screenshots/powershell-chocolatey-package.PNG)
