@@ -6,7 +6,7 @@ $appName = "dbr"
 $binaryFolder = "tools"
 $sourceDir = Join-Path $chocoDefault -ChildPath $appName
 try {
-    $destinationDir = Join-Path $partition -ChildPath "chocolatey"
+    $destinationDir = Join-Path $partition -ChildPath "chocolatey" -ErrorAction Stop
 }
 catch {
     $exception = $_
